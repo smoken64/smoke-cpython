@@ -1,3 +1,6 @@
 git commit -m "Your commit message
 
 git commit --signoff --author="Daniel Allen Sr <TheAllenAffair@outlook.com>"
+git rebase HEAD~1 --sign-off
+git push --force-with-lease origin
+smoke64-patch-1
